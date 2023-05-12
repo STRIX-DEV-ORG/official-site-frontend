@@ -1,0 +1,40 @@
+nav {
+    z-index: 1;
+    margin: 3rem 5% 0 5%;
+
+    width: 90%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.Logo {
+    width: 138px;
+    height: 36px;
+    flex-grow: 0;
+    margin: 11px 973px 0 0;
+    font-family: 'Iceland';
+    font-size: 32px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    text-align: left;
+    color: #f3f3f3;
+}
+  
+.menuBtn {
+display: inline;
+margin-right: 3vmax;
+
+}
+  
+.menuBtn img {
+width: 2.5rem;
+height: 1.25rem;
+}

@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@strixdev/styles/Home.module.css'
+import Header from '../organisms/Header/Header';
+import Footer from '../organisms/Footer/Footer';
+import Nav from '../organisms/Navigator/Navigator';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -14,6 +17,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Nav />
+      <Header />
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.description}>
           <p>
@@ -109,6 +114,7 @@ export default function Home() {
           </a>
         </div>
       </main>
+      <Footer />
     </>
   )
 }

@@ -1,0 +1,84 @@
+header {
+  margin: 10rem 0 20rem 0;
+  position: relative;
+  left: 9rem;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+
+.primary-background{
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 87.5rem;
+  height: 69rem;
+  transform: rotate(180deg) translateX(20rem) translateY(20rem) ;
+  background-image: radial-gradient(circle at 70% 70%, #0087c1, rgba(0, 135, 193, 0.46) 30%, rgba(0, 135, 193, 0.46) 30%, rgba(0, 135, 193, 0) 60%);
+}
+
+.accent-background{
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80rem;
+  height: 60rem;
+  transform: translateX(10rem) translateY(-10rem);
+  background-image: radial-gradient(circle at 60% 50%, #95289b, rgba(149, 40, 155, 0.56) 30%, rgba(149, 40, 155, 0) 50%);
+}
+  
+header h1 {
+  z-index: 1;
+  text-shadow: 0 0 8px #0087c1;
+  font-family: 'Iceland';
+  font-size: 160px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: 5px;
+  text-align: left;
+  color: #f3f3f3;
+}
+
+header h3 {
+  z-index: 1;
+  text-shadow: 0 0 4px #0087c1;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  line-height: 1.4;
+  letter-spacing: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  text-align: left;
+  text-transform: uppercase;
+  color: #f3f3f3;
+}
+
+.header-button{
+  z-index: 1;
+  width: 276px;
+  height: 68px;
+  margin: 2.5rem 0;
+  padding: 1rem 2rem;
+  border: solid 2px #0087c1;
+
+  font-family: 'Iceland';
+  font-size: 32px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.1;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #0087c1;
+  transition: all 0.5s ease;
+}
+
+.header-button:hover{
+  box-shadow: 0 0 24px 1px #0087c1;
+  border: solid 2px #0087c1;
+} 
